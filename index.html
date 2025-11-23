@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="window-container">
+        
+        <div id="screen-menu" class="screen">
+            <h1 class="title">WORDLE</h1>
+            <button id="btn-start" class="menu-btn">Start</button>
+            <button id="btn-leaderboard" class="menu-btn">Leaderboard</button>
+            <button id="btn-exit" class="menu-btn">Exit</button>
+        </div>
+
+        <div id="screen-name" class="screen hidden">
+            <label class="big-label">Enter your name:</label>
+            <input type="text" id="player-name-input" class="big-input" placeholder="Name" autofocus>
+            <button id="btn-join" class="action-btn">Join</button>
+            <button id="btn-name-back" class="back-btn">Back</button>
+        </div>
+
+        <div id="screen-game" class="screen hidden">
+            <div class="top-info">
+                <p id="player-display">Player: ? Attempts: 1/6</p>
+                <p id="timer" style="display:none">Time: 0.0s</p>
+            </div>
+
+            <div id="game-board">
+                </div>
+
+            <div class="input-area">
+                <input type="text" id="guess-input" maxlength="5" placeholder="TYPE HERE">
+                <button id="guess-btn">Guess</button>
+            </div>
+            <p id="message" class="feedback-msg"></p>
+
+            <div id="keyboard-container"></div>
+
+            <button id="btn-game-back" class="back-btn">Back</button>
+        </div>
+
+        <div id="screen-leaderboard" class="screen hidden">
+            <h2>Leaderboard</h2>
+            <div class="table-wrapper">
+                <table id="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Time(s)</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body">
+                        </tbody>
+                </table>
+            </div>
+            <button id="btn-lb-back" class="back-btn">Back</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
