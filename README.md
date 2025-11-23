@@ -1,3 +1,15 @@
+## 📖 Overview
+
+**Wordle Web** is a competitive spin on the classic daily word game. It features a real-time stopwatch and a persistent **Firebase Leaderboard** to track the fastest solve times.
+
+The game validates guesses against a dictionary of over 12,000 words to ensure gameplay accuracy, while keeping target words accessible.
+
+👉 [**Click here to play the live game**](https://wordle-web-d8405.firebaseapp.com/)
+
+
+---
+
+
 # 🟩 Wordle Web Clone
 
 A fully functional, web-based clone of the popular game **Wordle**, featuring a global leaderboard and a speed-run timer.
