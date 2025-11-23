@@ -15,7 +15,7 @@ The game validates guesses against a dictionary of over 12,000 words to ensure g
 👉 [**Click here to play the live game**](https://wordle-web-d8405.firebaseapp.com/)
 
 ---
-* [**Features**](#Features)
+* [**Features**](#-Features)
 ---
 
 ## 🚀 Features
