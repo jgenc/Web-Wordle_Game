@@ -15,12 +15,12 @@ The game validates guesses against a dictionary of over 12,000 words to ensure g
 👉 [**Click here to play the live game**](https://wordle-web-d8405.firebaseapp.com/)
 
 ---
-* [**Features**](#-Features)
-* [**Tech Stack**](#-Tech-Stack)
-* [**Project Structure**](#-Project-Structure)
-* [**How to Run Locally**](#-How-to-Run-Locally)
-* [**Leaderboard Logic**](#-Leaderboard-Logic)
-* [**Firebase Configuration**](#-Firebase-Configuration)
+* [**Features**](#-Features) - *The synopsis of the project.*
+* [**Tech Stack**](#-Tech-Stack) -*Leaderboard, Mechanics).*
+* [**Project Structure**](#-Project-Structure)   - *Project Structure.* 
+* [**How to Run Locally**](#-How-to-Run-Locally) - *Run locally in firebase the game.*
+* [**Leaderboard Logic**](#-Leaderboard-Logic) - *Leaderboard logic in game.*
+* [**Firebase Configuration**](#-Firebase-Configuration) - *Commands to run the game with firebase.*
 ---
 
 ## 🚀 Features
