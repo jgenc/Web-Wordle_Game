@@ -16,7 +16,7 @@ The game validates guesses against a dictionary of over 12,000 words to ensure g
 
 ---
 * [**Features**](#-Features) - *The synopsis of the project.*
-* [**Tech Stack**](#-Tech-Stack) -*Leaderboard, Mechanics).*
+* [**Tech Stack**](#-Tech-Stack) - *Leaderboard, Mechanics).*
 * [**Project Structure**](#-Project-Structure)   - *Project Structure.* 
 * [**How to Run Locally**](#-How-to-Run-Locally) - *Run locally in firebase the game.*
 * [**Leaderboard Logic**](#-Leaderboard-Logic) - *Leaderboard logic in game.*
